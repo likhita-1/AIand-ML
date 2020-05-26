@@ -1,0 +1,83 @@
+    4  git checkout branch_likhita
+    5  cd git-training-sample/
+    6  git branch branch_likhita
+    7  pwd
+    8  git add -A
+    9  git commit -m "day1"
+   10  cd ..
+   11  cd git-training-sample
+   12  git add -A
+   13  git commit -m "day1"
+   14  git push
+   15  git add -A
+   16  git commit -m "day1"
+   17  git --version
+   18  pwd
+   19  ls
+   20  ls -a
+   21  cd desktop
+   22  cd ..
+   23  cd desktop
+   24  mkdir AIandML
+   25  ls
+   26  cd AIandML
+   27  ls
+   28  touch data.txt
+   29  ls
+   30  cat data.txt
+   31  echo "AIandML" > data.txt
+   32  cat data.txt
+   33  gedit data.txt
+   34  nano.txt
+   35  nano data.txt
+   36  cat data.txt
+   37  nano.txt
+   38  nano test.txt
+   39  cat test.txt
+   40  rm test.txt
+   41  ls
+   42  git init
+   43  git status
+   44  git add data.txt
+   45  git status
+   46  git commit -m "first commit"
+   47  git config user.email
+   48  git config --global user.email "221710315024@gitam.in"
+   49  git config user.email
+   50  git config user.name
+   51  git commit -m "first commit"
+   52  git status
+   53  nano data.txt
+   54  git status
+   55  git add data.txt
+   56  gir commit -m "second commit"
+   57  git commit -m "second commit"
+   58  git log
+   59  mkdir AIand-ML
+   60  ls
+   61  git remote -help
+   62  git remote add AIand-ML https://github.com/likhita-1/AIand-ML
+   63  git remote show
+   64  git remote -v
+   65  git pull AIand-ML master
+   66  git push -u AIand-ML
+   67  git push --set-upstream AIand-ML
+   68  git push --set-upstream AIand-ML MASTER
+   69  git push --set-upstream AIand-ML master
+   70  git push -f --set-upstream AIand-ML master
+   71  nano gitcommands.txt
+   72  ls
+   73  git remote -help
+   74  git remote add AIand-ML https://github.com/likhita-1/AIand-ML
+   75  git remote show
+   76  git remote -v
+   77  git pull AIand-ML master
+   78  git push -u AIand-ML
+   79  git push --set-upstream AIand-ML master
+   80  git push -f --set-upstream AIand-ML master
+   81  git remote add AIand-ML https://github.com/likhita-1/AIand-ML
+   82  git push -f --set-upstream AIand-ML master
+   83  history
+   84  history 1-83 > git-commands.txt
+   85  history [1-83] > git-commands.txt
+   86  history 83 > git-commands.txt
